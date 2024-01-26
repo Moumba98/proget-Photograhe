@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="contenair"> 
+        <div>
+            <img src="images/logo- charle.png" class="image" alt="">
+        </div>
+        <div class="liens">
+            <a href="index.html"> ACCEUIL</a>
+            <a href="galerie.html">GALERIE</a>
+            <a href="tarifs.html">TARIFS ET PRESTATIONS</a>
+            <a href="contact.html">CONTACTES</a>
+        </div>
+    </header>
+
+    <h1> Galerie</h1>
+    <section class="filtre-contenaire ">
+        
+            <select id="mySelect" onchange="GetFilter()">
+                <option value="tous">Toutes les categories</option>
+                <option value="bebe">Bébé</option>
+                <option value="mariage">Mariage</option>
+                <option value="portrai">Portrai</option>
+                <option value="couple">couple</option>
+                <option value="grocesse">Grocesse</option>
+            </select>
+        
+        
+           <!-- <div id="filters">
+              
+                    <div id="tous">Toutes les categories</div>
+                    <div id="bebe">Bébé</div>
+                    <div id="famille">Familles</div>
+                    <div id="mariage">Mariage</div>
+                    <div id="portrai">Portrai</div>
+                    <div id="couple">couple</div>
+                    <div id="grocesse">Grocesse</div>
+                    
+            </div>-->
+        
+            <div class="galerie-img" id="galerie">
+                <img src="images/enfant1.jpg" alt="bebe" data-bebe class="active">
+                <img src="images/enfant2.jpg" alt="Bébé" data-bebe class="active">
+                <img src="images/enfant3.jpg" alt="Bébé" data-bebe class="active">
+                <img src="images/enfant4.jpg" alt="bebe" data-bebe class="active">
+                <img src="images/enfant5.jpg" alt="bebe" data-bebe class="active">
+                <img src="images/enfant6.jpg" alt="bebe" data-bebe class="active">
+                <img src="images/family-6398107_1280.jpg" alt="famille" data-famille class="active">
+                <img src="images/family-7257182_1280.jpg" alt="famille"data-famille class="active">
+                <img src="images/femme-anceint3.jpg" alt="grocesse" data-grocesse class="active">
+                <img src="images/femmes-anceint2.jpg" alt="grocesse" data-grocesse  class="active">
+                <img src="images/femmes-anceinte1.jpg" alt="grocesse" data-grocesse  class="active">
+                <img src="images/girls-462072_1280.jpg" alt="bebe" data-bebe class="active">
+                <img src="images/img-amis.jpg" alt="portrai" data-portrai class="active">
+                <img src="images/img-famille.jpg" alt="famille" data-famille class="active">
+                <img src="images/img-famille1.jpg" alt="famille" data-famille class="active">
+                <img src="images/img-famille3.jpg" alt="famille" data-famille class="active">
+                <img src="images/img-femme.jpg" alt="portrai" data-portrai class="active">
+                <img src="images/img-femme2.jpg" alt="portrai" data-portrai class="active">
+                <img src="images/img-homme.jpg" alt="portrai" data-portrai class="active">
+                <img src="images/img-mariage-1.jpg" alt="Mariage" data-Mariage class="active">
+                <img src="images/couple.jpg" alt="couple" data-couple class="active">
+                <img src="images/wedding-2595862_1280.jpg" alt="Mariage" data-Mariage class="active">
+                <img src="images/img-mariage2.jpg" alt="Mariage" data-Mariage class="active">
+                <img src="images/pregnancy-1677333_1280.jpg" alt="grocesse" data-grocesse="" class="active">
+                <img src="images/img-mariage3.jpg" alt="mariage" data-mariage class="active">
+            </div>
+        
+        
+    </section>
+
+    <script src="script.js"></script>
+        
+</body>
